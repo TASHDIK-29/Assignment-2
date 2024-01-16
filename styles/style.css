@@ -110,6 +110,9 @@ nav {
     background: #FFF;
     border: none;
     padding-left: 5px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
     /* background-image: url('<i class="fa-solid fa-angle-down"></i>'); */
 }
 
@@ -396,28 +399,34 @@ main {
     background: rgba(233, 68, 68, 0.05);
 }
 
-#sec-4-h1,#sec-4-h2,#sec-4-h3{
+#sec-4-h1,
+#sec-4-h2,
+#sec-4-h3 {
     color: #131318;
-font-size: 24px;
-font-weight: 800;
+    font-size: 24px;
+    font-weight: 800;
 }
 
-#sec-4-p1,#sec-4-p2,#sec-4-p3{
+#sec-4-p1,
+#sec-4-p2,
+#sec-4-p3 {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
 }
 
 
-#icon-1 , #icon-2 , #icon-3{
+#icon-1,
+#icon-2,
+#icon-3 {
     width: 20%;
-    background-color: rgba(233, 68, 68, 0.05); 
-    
+    background-color: rgba(233, 68, 68, 0.05);
+
 }
 
 /* review */
 
-.review-container{
+.review-container {
     width: 100%;
     height: 300px;
     display: flex;
@@ -425,7 +434,7 @@ font-weight: 800;
     align-items: center;
 }
 
-.review-container .review{
+.review-container .review {
     width: 25%;
     height: 90%;
     /* border: 2px solid red; */
@@ -438,25 +447,26 @@ font-weight: 800;
     background: rgba(41, 106, 246, 0.05);
 }
 
-.review-container .review .person{
+.review-container .review .person {
     width: 20%;
     height: 20%;
     border-radius: 50%;
 }
 
-.review-container .review .rating{
+.review-container .review .rating {
     width: 40%;
     height: 10%;
 }
 
-.see-more{
+.see-more {
     width: 100%;
     height: 40px;
     margin-top: 30px;
     display: flex;
     justify-content: end;
 }
-.see-more .btn{
+
+.see-more .btn {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -501,7 +511,7 @@ footer {
     margin: 0 auto;
 }
 
-.foot-container .anchor a{
+.foot-container .anchor a {
     font-size: 30px;
     margin-right: 20px;
 }
@@ -509,16 +519,16 @@ footer {
 footer .hr {
     width: 50%;
     height: 2%;
-   
+
 }
 
-footer .cr{
+footer .cr {
     color: #131318;
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
