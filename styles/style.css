@@ -109,6 +109,7 @@ nav {
     background: #FFF;
     border: none;
     padding-left: 5px;
+    /* background-image: url('<i class="fa-solid fa-angle-down"></i>'); */
 }
 
 .banner-container .input-sec .btn {
@@ -400,6 +401,57 @@ main {
     
 }
 
+/* review */
+.review-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.review-container .review{
+    width: 25%;
+    height: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 106, 246, 0.05);
+}
+
+.review-container .review .person{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.review-container .review .rating{
+    width: 40%;
+    height: 10%;
+}
+
+.see-more{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+.see-more .btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FF5400;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
 /* Footer */
 
 footer {
@@ -434,6 +486,11 @@ footer {
     margin: 0 auto;
 }
 
+.foot-container .anchor a{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
 footer .hr {
     width: 50%;
     height: 2%;
@@ -445,4 +502,8 @@ footer .cr{
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
+}
+
+.hidden{
+    display: none;
 }
