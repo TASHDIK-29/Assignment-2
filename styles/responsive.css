@@ -1,15 +1,16 @@
 /* Mobile */
 
 @media screen and (max-width:600px) {
-    nav {
+     nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         
-    }
-    .nav-heading {
-        width: 100%;
-    }
+    } 
+     .nav-heading {
+        width: 90%;
+        font-size: 26px;
+    } 
     
 .nav-menu {
     width: 100%;
@@ -17,8 +18,10 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 20px; 
+    
 }
+
 
 .banner-container {
     width: 100%;
