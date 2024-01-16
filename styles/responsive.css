@@ -137,6 +137,7 @@
     flex-direction: column;
     width: 100%;
     height: 520px;
+    gap: 15px;
 }
 
 .sec-4-layer-1 .item-1 {
@@ -149,7 +150,7 @@
 
  
 .sec-4-layer-2 {
-    margin-top: 15px;
+    margin-top: 45px;
 } 
 
 
@@ -193,11 +194,7 @@ footer {
     width: 100%;
     height: 40%;
     gap: 15px;
-    /* border: 2px solid red; */
-    /* text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
+   
 }
 
 .foot-container p {
@@ -230,6 +227,74 @@ footer .cr{
     font-size: 16px;
     font-weight: 300;
 }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:950px) {
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+
+    .nav-heading {
+        width: 40%;
+        font-size: 26px;
+    } 
+
+   
+    .nav-menu {
+        width: 100%;
+        gap: 20px;
+        margin-top: 20px; 
+        
+    }
+
+
+    .text {
+        width: 100%;
+        margin: 40px auto;
+        margin-bottom: 80px;
+    }
+
+
+    .review-container{
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top: 0;
+    }
+    .review-container .review{
+        width: 90%;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(19, 19, 24, 0.05);
+        gap: 50px;
+    }
+
+    .foot-container .foot-header {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 80px;
+    }
+
+
+
+
+
 
 
 
